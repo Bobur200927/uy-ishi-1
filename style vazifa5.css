@@ -1,0 +1,18 @@
+.p{
+    
+    
+    margin-top: 100px;
+    border-top: 2px solid #000;
+    background-image: url(assets/cool-car-pictures-0452k4b157vgkw3e.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
