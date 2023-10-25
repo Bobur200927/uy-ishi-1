@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head1 {
+
+   /* margin-bottom: 200px;*/
+   padding-bottom: 100px;
+  /* width: 400px;*/
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head2{
+    /*margin-top: 150px;*/
+    padding-top: 150px;
+}
+
+button{
+    padding-top: 100px;
+
+}
+
+/* ? Outline */
+
+.outline {
+    padding: 10px;
+    border: 1px solid red;
+    margin: 30px;
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-color: black ;
+    outline-width: 10px
+    
+}
+
+input{
+    /* outline: none;*/
+}
+
+
+/* ? text align */
+.center {
+    text-align: center;
+    /*text-align: right;*/
+    /*text-align: left;*/
+}
+
+.just {
+    text-align: justify;
+    /*text-align-last: right;*/
+}
+
+/* ? Text decoration */
+
+.decoration{
+    /*text-decoration: underline;*/
+    /*text-decoration: line-through;*/
+    text-decoration: overline underline line-through;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+}
+
+
+/* ? Text transform */
+.transform{
+    /*text-transform: uppercase;*/
+    text-transform: capitalize;
+}
+
+.transform1{
+    text-transform: lowercase;
+}
+
+/* ? Background Image */
+
+.for_image{
+    margin-top: 100px;
+    border-top: 2px solid #000;
+    background-image: url(assets/cool-car-pictures-0452k4b157vgkw3e.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
